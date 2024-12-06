@@ -5,10 +5,10 @@ function moyenne({ note1, note2 }) {
         
             <div style={{ 'border': '1px solid black', 'width': '200px' }}>
                 <label>Votre premiere note est :</label>
-                <sapn>{note1}</sapn>
+                <span>{note1}</span>
                 <br />
                 <label>Votre deuxieme note est :</label>
-                <sapn>{note2}</sapn>
+                <span>{note2}</span>
 
                 <div>Votre moyenne est : {(note1 + note2) / 2} </div>
             </div>

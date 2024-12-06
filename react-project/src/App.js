@@ -5,6 +5,8 @@ import Contact from "./Components/Contact/Contact";
 import Service from "./Components/Contact/Service";
 import Home from "./Components/Home";
 import Moyenne from "./Components/moyenne/moyenne";
+import Effect from "./Effect";
+import EffectWithParams from "./EffectWithParams";
 import MyHook from "./MyHook";
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
       <Moyenne note1={17} note2={15} />
       <Child affichage={affichage} />
       <MyHook />
+      <Effect />
+      <EffectWithParams />
     </div>
   );
 }
